@@ -1,0 +1,31 @@
+# model weights
+saves/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# HuggingFace cache
+.cache/
+*.cache
+
+# logs
+logs/
+*.log
+*.err
+
+# the cloned repo
+open-unlearning/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# env files
+.venv/
+*.egg-info/
+
+# triton  cache
+.triton/
