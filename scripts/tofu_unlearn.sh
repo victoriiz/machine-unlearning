@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=tofu_unlearn
-#SBATCH --partition=IllinoisComputes
+#SBATCH --partition=IllinoisComputes-GPU
 #SBATCH --gres=gpu:A100:1
 #SBATCH --mem=32G
 #SBATCH --time=04:00:00
@@ -41,6 +41,7 @@ echo "=============================="
 # ── Step 1: Unlearn ───────────────────────────────────────────
 echo "Starting unlearning..."
 python src/train.py --config-name=unlearn.yaml \
+  model.attn_implementation="sdpa' \
   experiment=unlearn/tofu/default \
   forget_split=${FORGET_SPLIT} \
   retain_split=${RETAIN_SPLIT} \
