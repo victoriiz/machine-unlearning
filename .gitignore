@@ -17,6 +17,10 @@ logs/
 # the cloned repo
 open-unlearning/
 
+# jupyter notebook
+notebooks/TOFU.ipynb
+*.ipynb
+
 # python cache
 __pycache__/
 *.pyc
