@@ -15,7 +15,7 @@ logs/
 *.err
 
 # the cloned repo
-open-unlearning/
+# open-unlearning/
 
 # jupyter notebook
 notebooks/TOFU.ipynb
