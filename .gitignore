@@ -33,3 +33,5 @@ __pycache__/
 
 # triton  cache
 .triton/
+
+my.conda.dir/
