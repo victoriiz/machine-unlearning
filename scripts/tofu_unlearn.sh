@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=tofu_unlearn
-#SBATCH --partition=secondary
-#SBATCH --gres=gpu:H100:1
+#SBATCH --partition=IllinoisComputes
+#SBATCH --gres=gpu:A100:1
 #SBATCH --mem=32G
 #SBATCH --time=04:00:00
 #SBATCH --output=/u/vz8/unlearning/logs/tofu_%j.log
