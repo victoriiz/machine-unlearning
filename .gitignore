@@ -15,11 +15,11 @@ logs/
 *.err
 
 # the cloned repo
-open-unlearning/
+#open-unlearning/
 
 # jupyter notebook
 notebooks/TOFU.ipynb
-*.ipynb
+#*.ipynb
 
 # python cache
 __pycache__/
