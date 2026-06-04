@@ -1,0 +1,3 @@
+[submodule "external/open-unlearning"]
+	path = external/open-unlearning
+	url = https://github.com/victoriiz/open-unlearning.git
